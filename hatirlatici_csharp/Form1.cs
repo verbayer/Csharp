@@ -217,7 +217,6 @@ namespace WindowsFormsApp3
             sfd.CreatePrompt = true;
             sfd.OverwritePrompt = true;
             sfd.DefaultExt = ".txt";
-            sfd.ShowDialog();
             if (sfd.ShowDialog() == DialogResult.OK)
             {
                 try
